@@ -1,4 +1,8 @@
-import Image from "next/image"
+"use client";
+
+import Image from "next/image";
+import Button from "../ui/button";
+import { FiRefreshCw } from "react-icons/fi";
 
 const OrderConfirmed = () => {
     return(
