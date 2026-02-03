@@ -6,9 +6,9 @@ const HeroSection = () => {
     return(
     <section 
         id="hero-section" 
-        className="container mx-auto h-screen flex mt-10"
+        className="container mx-auto h-screen flex"
     >
-        <div className="relative self-center">
+        <div className="relative self-center mt-50">
             <Image
             src="/images/img-basketball.png"
             width={432}
@@ -49,7 +49,7 @@ const HeroSection = () => {
                 width={420}
                 height={420}
                 alt="image sporton"
-                className="absolute -right-[200px] top-1/2 -translate-y-1/2 "/>
+                className="absolute -right-[200px] top-1/2 -translate-y-1/2 mt-10"/>
 
     </section>
     );
