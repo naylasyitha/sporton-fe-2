@@ -1,5 +1,3 @@
-"use client";
-
 import { FiAlertCircle } from "react-icons/fi";
 
 const OrderRejected = () => {

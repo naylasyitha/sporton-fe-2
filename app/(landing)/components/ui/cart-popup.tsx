@@ -1,3 +1,5 @@
+"use client";
+
 import priceFormatter from "@/app/utils/price-formatter";
 import Image from "next/image";
 import Button from "./button";
