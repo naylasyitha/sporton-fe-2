@@ -1,6 +1,7 @@
+"use client";
+
 import { useState } from "react";
 import CartItems from "../components/checkout/cart-items"
-import OrderInfromation from "../components/checkout/order-information"
 import { CustomerInfo, useCartStore } from "@/app/hooks/use-cart-store";
 import { useRouter } from "next/navigation";
 import OrderInformation from "../components/checkout/order-information";
@@ -8,7 +9,7 @@ import OrderInformation from "../components/checkout/order-information";
 
 const Checkout = () => {
     const { push } = useRouter();
-    const { customerInfo, setCustomerInfo } = useCartStore();
+    const { setCustomerInfo } = useCartStore();
     const [formData, setFormData] = useState<CustomerInfo>({
         customerName: "",
         customerContact: null,
